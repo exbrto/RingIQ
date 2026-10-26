@@ -1,0 +1,27 @@
+body{
+    font-family: 'Roboto Condensed', 'Helvetica', sans-serif;
+    background: #161616;
+    font-size: 62.5%;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+h2{
+    font-size: 2rem;
+    color: #fff;
+}
+.iq{
+    color: #96da7b;
+}
+.topLinks{
+    font-size: .8rem;
+    color: #fff;
+}
+.getStarted{
+    border: 1px solid;
+    border-radius: 15px;
+    padding: 5px 10px;
+    background: #fff;
+    color: #161616;
+}

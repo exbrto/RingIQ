@@ -1,11 +1,15 @@
 body{
-    font-family: 'Roboto Condensed', 'Helvetica', sans-serif;
+    font-family: 'Oswald', 'Helvetica', sans-serif;
     background: #161616;
     font-size: 62.5%;
+    color: #fff;
 }
 header{
     display: flex;
     justify-content: space-between;
+    align-items: flex-end;
+    border: 1px solid white;
+    max-height: 5vh;
 }
 h2{
     font-size: 2rem;
@@ -17,6 +21,7 @@ h2{
 .topLinks{
     font-size: .8rem;
     color: #fff;
+    text-decoration: none;
 }
 .getStarted{
     border: 1px solid;
@@ -24,4 +29,15 @@ h2{
     padding: 5px 10px;
     background: #fff;
     color: #161616;
+}
+main{
+    display: flex;
+}
+main > section{
+    border: 1px solid #fff;
+    max-width: 50%;
+}
+.mainImg{
+    width: 100%;
+    height: 100%;
 }

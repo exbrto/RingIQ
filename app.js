@@ -45,12 +45,16 @@ app.use('/prescriptions', medsRoutes)    // this will send req's to the workouts
 // })
 
 app.get('/', (req, res) => {
+    res.render('main')
+})
+
+app.get('/login', (req, res) => {
     res.render('login', {message: req.flash('loginMessage')})
 })
 
 app.post('/login', passport.authenticate('local-login', {
     successRedirect: '/medications',
-    failureRedirect: '/',
+    failureRedirect: '/login',
     failureFlash: true
 }))
 
